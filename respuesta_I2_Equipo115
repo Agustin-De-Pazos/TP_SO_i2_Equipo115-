@@ -1,14 +1,19 @@
 Manuel Omar Garcia, Agustin De Pazos
 
 a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Hago click en fetch update y luego a fetch and marge
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
-
+Si
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
 No, no puede.
-
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 Si
-
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
-orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos ,
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos,
+
+BETA creo el repositorio respuesta_I2_Equipo115. Descarga el repositorio (clonandolo con git clone en la consola git bash). Crea un archivo fork.txt
+realiza los siguientes comandos para subirlo a su repositorio los cambios (git add . , git commit -m "." , git push)
+ALFA forkea el repositorio de Beta realiza un push con los mismo comandos anteriores poniendo su nombre y apellido y ip en fork.txt-
+Beta crea otro archivo llamado  NuevoDato.txt. y ALFA actualiza el repositorio forkeado obteniendo el nuevo archivo creado por Beta.
+
